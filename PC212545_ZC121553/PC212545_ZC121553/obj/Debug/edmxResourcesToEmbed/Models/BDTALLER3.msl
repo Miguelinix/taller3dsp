@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBTALLER3ModelStoreContainer" CdmEntityContainer="DBTALLER3">
+    <EntitySetMapping Name="Table_2">
+      <EntityTypeMapping TypeName="DBTALLER3Model.Table_2">
+        <MappingFragment StoreEntitySet="Table_2">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="banda" ColumnName="banda" />
+          <ScalarProperty Name="integrantes" ColumnName="integrantes" />
+          <ScalarProperty Name="album" ColumnName="album" />
+          <ScalarProperty Name="sencillos" ColumnName="sencillos" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

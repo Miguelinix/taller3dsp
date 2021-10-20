@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBTALLER3Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Table_2">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="banda" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="integrantes" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="album" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sencillos" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="foto" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityContainer Name="DBTALLER3" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Table_2" EntityType="Self.Table_2" />
+  </EntityContainer>
+</Schema>
